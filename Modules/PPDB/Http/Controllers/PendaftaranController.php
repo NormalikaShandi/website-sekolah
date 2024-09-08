@@ -6,7 +6,7 @@ use App\Models\dataMurid;
 use App\Models\User;
 use ErrorException;
 use Illuminate\Http\Request;
-use Modules\PPDB\Http\Requests\{berkasMuridRequest, DataMuridRequest,DataOrtuRequest};
+use Modules\PPDB\Http\Requests\{BerkasMuridRequest, DataMuridRequest,DataOrtuRequest};
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
