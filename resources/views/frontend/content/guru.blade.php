@@ -28,3 +28,12 @@
         </div>
     </div>
 </div>
+
+<style>
+/* CSS untuk tampilan mobile */
+@media (max-width: 768px) {
+    .lecturers-area {
+        display: none;
+    }
+}
+</style>

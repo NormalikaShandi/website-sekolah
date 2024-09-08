@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    
+
     {{-- Slider --}}
     @section('slider')
         @include('frontend.content.slider')

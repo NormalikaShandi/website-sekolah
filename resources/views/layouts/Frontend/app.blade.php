@@ -55,7 +55,7 @@
         <!-- Footer Area End Here -->
     </div>
     <!-- Main Body Area End Here -->
-    @include('layouts.Frontend.scripts')
+    @include('layouts.frontend.scripts')
 </body>
 
 </html>

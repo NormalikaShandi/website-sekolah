@@ -69,10 +69,7 @@
                                 <div class="col-6">
                                     <div class="form-group">
                                         <label for="basicInput">Mengajar</label> <span class="text-danger">*</span>
-                                        <select name="mengajar" class="form-control @error('mengajar') is-invalid @enderror">
-                                            <option value="">-- Pilih --</option>
-                                            <option value="Matematika">Matematika</option>
-                                        </select>
+                                        <input name="mengajar" class="form-control @error('mengajar') is-invalid @enderror"name="mengajar" value=" {{old('mengajar')}} " placeholder="Mengajar" />
                                         @error('mengajar')
                                             <div class="invalid-feedback">
                                             <strong>{{ $message }}</strong>
